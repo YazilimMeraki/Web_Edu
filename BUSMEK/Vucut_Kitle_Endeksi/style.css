@@ -1,0 +1,31 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.hesapla {
+    font-size: 25px;
+    margin: auto;
+    text-align: center;
+    background: rgba(0, 0, 0, .5);
+    height: 500px;
+    width: 500px;
+}
+
+.hesapla * {
+    margin-top: 20px;
+}
+
+.hesapla button {
+    height: 50px;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+}
+
+input {
+    font-size: 25px;
+}

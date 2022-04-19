@@ -1,0 +1,33 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.slider {
+    background-image: url(https://img.freepik.com/free-photo/spooky-tree-against-big-moon_1048-2912.jpg?t=st=1649848681~exp=1649849281~hmac=e300d6b2f841790ceaf748eb16cf5fb04d7af80ac169882ba943889207b2f52a&w=900);
+    width: 100%;
+    height: 100vh;
+    background-repeat: no-repeat;
+    background-size: cover;
+    animation: effect infinite 20s;
+    animation-duration: 50s;
+}
+
+@keyframes effect {
+    20% {
+        background-image: url(https://img.freepik.com/free-photo/small-house-built-peaceful-green-hill-high-up-mountains_181624-8241.jpg?t=st=1649848681~exp=1649849281~hmac=9728330501c606b8b8fb6216f23730493f0b8465cfcd012640e3525c8d5db8ca&w=740);
+    }
+    40% {
+        background-image: url(https://img.freepik.com/free-photo/landscape-morning-fog-mountains-with-hot-air-balloons-sunrise_335224-794.jpg?t=st=1649848681~exp=1649849281~hmac=fcd194fd7329ca6f1f7fa8d5c15e904c3cf743ce906ea8921f9f96a49a8ef760&w=740);
+    }
+    60% {
+        background-image: url(https://img.freepik.com/free-photo/fuji-mountain-kawaguchiko-lake-morning-autumn-seasons-fuji-mountain-yamanachi-japan_335224-102.jpg?t=st=1649848681~exp=1649849281~hmac=48d8690b8f1dfe7d6c3ba56dbd1bbe52b6e472fda714086d4863c4dd0066a6a1&w=900);
+    }
+    80% {
+        background-image: url(https://img.freepik.com/free-photo/beautiful-scenery-green-valley-near-alp-mountains-austria-cloudy-sky_181624-6979.jpg?t=st=1649848681~exp=1649849281~hmac=a7013bc57bab460d3d7c93484a0a14cacf0ccc32a605c230e62373499f29962d&w=740);
+    }
+    100% {
+        background-color: url(https://img.freepik.com/free-photo/footpath-beautiful-arch-flowers-plants_181624-16890.jpg?t=st=1649848681~exp=1649849281~hmac=e98ccf01a808f9f92706813a74ebc9f6c4ba4b79aaee47d45eab9652f481ea2c&w=740);
+    }
+}

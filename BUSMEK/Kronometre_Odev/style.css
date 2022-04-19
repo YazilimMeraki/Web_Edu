@@ -1,0 +1,33 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    color: white;
+    background-color: red;
+}
+
+.timer {
+    margin: auto;
+    margin-top: 50px;
+    background: rgba(0, 0, 0, .5);
+    width: 600px;
+    height: 100px;
+}
+
+.timer button {
+    color: white;
+    background-color: green;
+    width: 197px;
+    height: 100px;
+}
+
+#yazi {
+    margin: auto;
+    width: 100px;
+    height: 100px;
+    text-align: center;
+    font-size: 90px;
+}

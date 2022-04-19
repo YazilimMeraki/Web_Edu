@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Geometri</title>
+    <link rel="stylesheet" href="style.css">
+
+    <body>
+        <div class="genel" id="genel">
+            <div class="Hesap">
+                <div class="D_Alan">
+                    <!-- pi r 2-->
+                    <h3>Daire Alan </h3>
+                    <label for="">Yarıçap</label>
+                    <input type="text" id="yarim">
+                    <button onclick="D_Alan()"><a href="#imagess"> Hesapla</a></button>
+                </div>
+                <div class="K_Hacim">
+
+                    <!--  V = (4/3)πr³ -->
+                    <h3> Küre Hacim </h3>
+                    <label for="">Yarıçap</label>
+                    <input type="text" id="yarimkure">
+                    <button onclick="K_Hacim()"><a href="#imagess"> Hesapla</a></button>
+                </div>
+
+            </div>
+
+
+            <div class="Hesap">
+                <div class="U_alan">
+                    <!-- A = 1/2 * taban * yükseklik-->
+                    <h3> Üçgen Alan</h3>
+                    <label for="">Taban</label>
+                    <input type="text" id="u_taban">
+                    <label for="">Yükseklik</label>
+                    <input type="text" id="u_yukseklik">
+                    <button onclick="U_Alan()"><a href="#imagess"> Hesapla</a></button>
+                </div>
+                <div class="U_hacim">
+                    <!-- Taban * Yükseklik = hacim-->
+                    <h3> Üçgen Prizma Hacim</h3>
+                    <label for="">Taban</label>
+                    <input type="text" id="u_taban2">
+                    <label for="">Yükseklik</label>
+                    <input type="text" id="u_yukseklik2">
+                    <button onclick="U_Hacim()"><a href="#imagess"> Hesapla</a></button>
+                </div>
+            </div>
+            <div class="Hesap">
+                <div class="Ka_Alan">
+                    <!-- a*a = Alan-->
+                    <h3>Kare Alan </h3>
+                    <label for="">Uzunluk</label>
+                    <input type="text" id="uzunluk">
+                    <button onclick="Kare_Alan()"><a href="#imagess"> Hesapla</a></button>
+                </div>
+                <div class="Kup_Hacim">
+                    <!-- a*a*a -->
+                    <h3>Küp Hacim </h3>
+                    <label for="">Uzunluk</label>
+                    <input type="text" id="uzunluk2">
+                    <button onclick="Küp_Hacim()"><a href="#imagess"> Hesapla</a></button>
+                </div>
+            </div>
+            <div class="Hesap">
+                <div class="dik_alan">
+                    <!-- K*U-->
+                    <h3>Dikdörtgen Alan</h3>
+                    <label for="">Uzun Kenar</label>
+                    <input type="text" id="Dik_kenar_u">
+                    <label for="">Kısa Kenar </label>
+                    <input type="text" id="Kısa_Kenar_d">
+                    <button onclick="Dikdortgen()"><a href="#imagess"> Hesapla</a></button>
+                </div>
+                <div class="dik_hacim">
+                    <h3>Dikdörtgen Prizma Hacim</h3>
+                    <label for="">Yükseklik</label>
+                    <input type="text" id="Y_prizma">
+                    <label for="">Uzun Kenar</label>
+                    <input type="text" id="W_prizma">
+                    <label for="">Kısa Kenar </label>
+                    <input type="text" id="Kısa_Kenar_di">
+                    <button onclick="Dikprizma()"><a href="#imagess"> Hesapla</a></button>
+                </div>
+
+            </div>
+            <div class="Hesap">
+                <div class="yamuk_alan">
+                    <!-- ((Alt taban + üst taban) / 2) x yükseklik-->
+                    <h3>Yamuk Alan</h3>
+                    <label for="">Alt Taban</label>
+                    <input type="text" id="Y_taban">
+                    <label for="">Üst Taban</label>
+                    <input type="text" id="Y_ütaban">
+                    <label for="">Yükseklik</label>
+                    <input type="text" id="Y_yuksek">
+                    <button onclick="Yamık()"><a href="#imagess"> Hesapla</a></button>
+                </div>
+            </div>
+        </div>
+
+        <div class="sonuclar">
+            <img src="img/küre.png" alt="" id="imagess">
+            <div class="son">
+                <h3>Alan = </h3>
+                <input type="text" readonly id="sonucA">
+                <h3>Hacim = </h3>
+                <input type="text" readonly id="sonucH">
+                <button> <a href="#genel"> Başa dön</a> </button>
+            </div>
+        </div>
+
+        <script src="script.js"></script>
+    </body>
+
+</html>

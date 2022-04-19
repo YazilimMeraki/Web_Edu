@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>sss</title>
+    <link href='https://fonts.googleapis.com/css?family=Orbitron&text=0123456789:AMP' rel='stylesheet' type='text/css'>
+</head>
+
+<body>
+
+    <div class="saat" id="class"></div>
+
+    <script>
+        function guncel() {
+            var date = new Date()
+            var hor = date.getHours()
+            var dak = date.getMinutes()
+            var sec = date.getSeconds()
+            document.getElementById("class").innerHTML = hor.toLocaleString() + ":" + dak.toLocaleString() + ":" + sec.toLocaleString()
+        }
+        setInterval(guncel, 1000)
+    </script>
+</body>
+
+</html>
+
+<style>
+    @font-face {
+        font-family: 'digital-clock-font';
+        src: url('put_the_location_to_your_font.ttf or .otf');
+    }
+    
+    .saat {
+        font-family: "Orbitron";
+        margin: auto;
+        width: 350px;
+        height: 100px;
+        background-color: black;
+        color: rgb(255, 255, 255);
+        margin-top: 5em;
+    }
+    
+    body {
+        text-align: center;
+        font-size: 50px;
+    }
+</style>

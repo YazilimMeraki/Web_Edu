@@ -1,0 +1,123 @@
+    * {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+    }
+    
+    .genel {
+        background-color: red;
+        border: 2px solid red;
+        width: 100%;
+        height: 100vh;
+        display: flex;
+        flex-direction: row;
+        color: antiquewhite;
+    }
+    
+    .Hesap {
+        border: 2px solid black;
+        height: 100vh;
+        width: 20%;
+        display: flex;
+        flex-direction: column;
+    }
+    
+    .D_Alan {
+        text-align: center;
+        display: flex;
+        flex-direction: column;
+    }
+    
+    .K_Hacim {
+        text-align: center;
+        display: flex;
+        flex-direction: column;
+    }
+    
+    .U_alan {
+        text-align: center;
+        display: flex;
+        flex-direction: column;
+    }
+    
+    .U_hacim {
+        text-align: center;
+        display: flex;
+        flex-direction: column;
+    }
+    
+    .Ka_Alan {
+        text-align: center;
+        display: flex;
+        flex-direction: column;
+    }
+    
+    .Kup_Hacim {
+        text-align: center;
+        display: flex;
+        flex-direction: column;
+    }
+    
+    .dik_alan {
+        text-align: center;
+        display: flex;
+        flex-direction: column;
+    }
+    
+    .dik_hacim {
+        text-align: center;
+        display: flex;
+        flex-direction: column;
+    }
+    
+    .yamuk_alan {
+        text-align: center;
+        display: flex;
+        flex-direction: column;
+    }
+    
+    a {
+        text-decoration: none;
+        color: white;
+    }
+    
+    h3 {
+        margin-top: 25px;
+    }
+    
+    label {
+        margin-top: 20px;
+    }
+    
+    input {
+        height: 25px;
+        background-color: rgb(0, 0, 0);
+        color: white;
+        margin-top: 25px;
+    }
+    
+    button {
+        cursor: pointer;
+        width: 100%;
+        height: 25px;
+        background-color: green;
+        color: white;
+        margin-top: 25px;
+    }
+    
+    .sonuclar {
+        vertical-align: middle;
+        text-align: center;
+        background-color: black;
+        width: 100%;
+        height: 100vh;
+    }
+    
+    .sonuclar img {
+        width: 400px;
+        height: 400px;
+    }
+    
+    .son h3 {
+        color: wheat;
+    }

@@ -1,0 +1,7 @@
+.color {
+    margin: auto;
+    width: 600px;
+    height: 600px;
+    border: 5px solid black;
+    background-color: red;
+}

@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div class="buttons" onclick="tombala1()">
+        <button>Random attack</button>
+    </div>
+    <div class="sayilar">
+        <div class="sayi1" id="sayi1"></div>
+        <div class="sayi1" id="sayi2"></div>
+        <div class="sayi1" id="sayi3"></div>
+        <div class="sayi1" id="sayi4"></div>
+        <div class="sayi1" id="sayi5"></div>
+        <div class="sayi1" id="sayi6"></div>
+    </div>
+</body>
+
+</html>
+
+<script>
+    function tombala1() {
+        var a = Math.floor(Math.random() * 100)
+        var a1 = Math.floor(Math.random() * 100)
+        var a2 = Math.floor(Math.random() * 100)
+        var a3 = Math.floor(Math.random() * 100)
+        var a4 = Math.floor(Math.random() * 100)
+        var a5 = Math.floor(Math.random() * 100)
+        document.getElementById("sayi1").innerText = a
+        document.getElementById("sayi2").innerText = a1
+        document.getElementById("sayi3").innerText = a2
+        document.getElementById("sayi4").innerText = a3
+        document.getElementById("sayi5").innerText = a4
+        document.getElementById("sayi6").innerText = a5
+    }
+
+    function tombala1() {
+        for (i = 1; i < 7; i++) {
+            var a = Math.floor(Math.random() * 100)
+            document.getElementById("sayi" + i).innerText = a
+        }
+    }
+</script>

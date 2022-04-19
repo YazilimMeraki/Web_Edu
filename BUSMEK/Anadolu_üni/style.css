@@ -1,0 +1,670 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+a {
+    text-decoration: none;
+}
+
+body {
+    overflow-x: hidden;
+}
+
+
+/* Up Menu*/
+
+.menu_up {
+    background-color: darkred;
+    width: 100%;
+    height: 40px;
+}
+
+.fast_link {
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    right: -60%;
+    top: 1%;
+}
+
+.fast_link a {
+    transition: .5s;
+    padding-bottom: 0.9%;
+    font-size: 11px;
+    margin-right: 10px;
+    color: white;
+    text-decoration: none;
+}
+
+.fast_link a:hover {
+    border-bottom: 5px solid rgb(219, 27, 27);
+}
+
+#aday {
+    padding-top: 1%;
+    background-color: rgb(230, 61, 61);
+}
+
+
+/* Slider */
+
+.menu {
+    width: 100%;
+    height: 130px;
+    position: absolute;
+    display: flex;
+    flex-direction: row;
+}
+
+.language {
+    right: 3.5%;
+    top: 20%;
+    display: flex;
+    flex-direction: row;
+    position: absolute;
+}
+
+.logo {
+    position: absolute;
+    bottom: 6%;
+    left: 2%;
+}
+
+.logo img {
+    padding: 10px;
+    margin-left: 6%;
+    margin-top: 2%;
+}
+
+.slider {
+    background-color: rgb(104, 89, 67);
+    border: 1px solid black;
+    height: 390px;
+    margin-left: -12px;
+    width: 103%;
+    display: flex;
+    flex-direction: row;
+    overflow: hidden;
+}
+
+.slider iframe {
+    width: 100%;
+    height: 400px;
+    overflow: hidden;
+}
+
+i {
+    font-size: 20px;
+    color: black;
+}
+
+.menu_button {
+    position: absolute;
+    bottom: 0;
+    right: 0;
+}
+
+.menu_button button {
+    border: none;
+    background: transparent;
+    height: 50px;
+    width: 150px;
+}
+
+.menu_button button:hover {
+    background-color: rgb(207, 204, 204);
+    color: darkred;
+}
+
+.menu_button button a {
+    text-decoration: none;
+    color: white;
+}
+
+.menu_button button a:hover {
+    background-color: rgb(207, 204, 204);
+    color: darkred;
+}
+
+.option a {
+    margin-top: 30%;
+    color: cadetblue;
+    text-decoration: none;
+}
+
+
+/* Dates */
+
+.dates_and_fastmenu {
+    text-align: center;
+    width: 100%;
+    height: 320px;
+    display: flex;
+    flex-direction: row;
+    background-color: rgb(32, 32, 32);
+}
+
+.row {
+    width: 400px;
+    display: flex;
+    flex-direction: row;
+}
+
+.dates {
+    margin: auto;
+    display: flex;
+    flex-direction: row;
+}
+
+.collumn {
+    display: flex;
+    flex-direction: column;
+}
+
+.date {
+    text-align: center;
+    margin: 5px;
+    color: rgb(219, 210, 196);
+    display: flex;
+    flex-direction: row;
+}
+
+.time {
+    margin-top: 15px;
+    font-size: 15px;
+    text-align: center;
+    color: white;
+    background-color: black;
+    padding: 5px;
+}
+
+.time h2 {
+    font-size: 25px;
+}
+
+.time p {
+    font-size: 10px;
+}
+
+.explanation {
+    margin-top: 15px;
+    border-bottom: 2px wheat dotted;
+    width: 100%;
+    position: relative;
+    bottom: 0;
+}
+
+.buttons {
+    display: flex;
+    flex-direction: row;
+}
+
+.buttons button {
+    margin-top: 15px;
+    color: blanchedalmond;
+    border: 0;
+    background-color: rgb(44, 44, 44);
+    height: 30px;
+    width: 400px;
+    margin-left: 5px;
+}
+
+
+/* Options */
+
+.main_menu {
+    margin-top: 10px;
+    margin-right: 60px;
+}
+
+.menu_row {
+    display: flex;
+    flex-direction: row;
+}
+
+.option {
+    display: flex;
+    flex-direction: column;
+    border-bottom: 5px solid rgb(182, 0, 0);
+    background-color: aliceblue;
+    height: 100px;
+    width: 120px;
+    margin: 0 2px 2px 2px;
+}
+
+
+/* Podcast and news */
+
+.podcast {
+    margin: auto;
+    margin-top: 2%;
+    width: 90%;
+    height: 420px;
+}
+
+.icons i {
+    background-color: rgb(42, 31, 128);
+    padding: 8px;
+    font-size: 34px;
+}
+
+.podcast_header {
+    margin: auto;
+    display: flex;
+    flex-direction: row;
+    background-color: rgb(54, 39, 168);
+    width: 100%;
+    height: 50px;
+}
+
+.all_publications a {
+    position: absolute;
+    margin-top: 15px;
+    right: 6%;
+    text-decoration: none;
+    color: rgb(142, 138, 173);
+}
+
+.title_and_explanation {
+    margin: auto;
+    width: 280px;
+}
+
+.podcast_broadcasts {
+    margin: auto;
+    display: flex;
+    flex-direction: row;
+}
+
+.pod {
+    margin: auto;
+    margin-top: 20px;
+}
+
+.title {
+    margin-top: 0.5%;
+    margin-left: 2%;
+}
+
+
+/* social media */
+
+#youtube {
+    color: red;
+}
+
+#spodify {
+    color: green;
+}
+
+#google {
+    color: blue;
+}
+
+#instagram {
+    color: rgb(151, 92, 158);
+}
+
+#twitter {
+    color: rgb(67, 186, 255);
+}
+
+#facebook {
+    color: rgb(71, 71, 245);
+}
+
+
+/* News */
+
+.contents {
+    height: 160vh;
+}
+
+.news {
+    margin: auto;
+    width: 90%;
+    height: 400px;
+}
+
+.news_header {
+    margin: auto;
+    display: flex;
+    flex-direction: row;
+    background-color: rgb(168, 39, 39);
+    width: 100%;
+    height: 50px;
+}
+
+.news_icons i {
+    background-color: rgb(128, 31, 31);
+    padding: 8px;
+    font-size: 34px;
+}
+
+.News_image_and_explanation {
+    margin: auto;
+    display: flex;
+    flex-direction: row;
+}
+
+.new {
+    margin: auto;
+    margin-top: 20px;
+}
+
+.new_title_and_explanation {
+    margin: auto;
+    width: 290px;
+    margin-top: 10px;
+}
+
+.new_title_and_explanation p {
+    font-size: 14px;
+}
+
+
+/* event_calendar */
+
+.event_calendar {
+    width: 100%;
+    height: 400px;
+    display: flex;
+    flex-direction: row;
+    margin-left: 7.5%;
+}
+
+
+/* Links */
+
+.links_header {
+    display: flex;
+    flex-direction: row;
+    background-color: rgb(76, 158, 206);
+    width: 100%;
+    height: 50px;
+}
+
+.links_header .links_icons i {
+    background-color: rgb(63, 135, 177);
+    padding: 14.7px;
+    font-size: 20px;
+}
+
+.connections {
+    display: flex;
+    flex-direction: row;
+}
+
+.connections_collumn {
+    display: flex;
+    flex-direction: column;
+}
+
+.con {
+    margin-top: 20px;
+    height: 90px;
+    text-align: center;
+    width: 140px;
+    color: rgb(43, 110, 255);
+}
+
+.con a i {
+    color: rgb(43, 110, 255);
+    font-size: 35px;
+    transition: .5s;
+}
+
+.con a {
+    margin-top: 5px;
+    font-size: 15px;
+    text-decoration: none;
+}
+
+.con a i:hover {
+    font-size: 40px;
+}
+
+
+/* Calender events */
+
+.events_calendar {
+    margin-left: 20px;
+}
+
+.events_calendar_header {
+    width: 600px;
+    display: flex;
+    flex-direction: row;
+    height: 50px;
+    background-color: rgb(82, 122, 230);
+}
+
+.events_calendar_header_privious {
+    margin-top: 3%;
+    margin-left: 40%;
+}
+
+.events_calendar_header_privious a {
+    text-decoration: none;
+    color: white;
+}
+
+.events_calendar_header_icons i {
+    padding: 14.7px;
+    background-color: rgb(54, 96, 211);
+}
+
+.events_common {
+    display: flex;
+    flex-direction: column;
+}
+
+.evt {
+    margin-top: 10px;
+    display: flex;
+    flex-direction: row;
+}
+
+.title_calender {
+    margin-left: 20px;
+    width: 400px;
+}
+
+.title_calender * {
+    margin-top: 1%;
+}
+
+.title_calender h4 {
+    margin-left: -10px;
+}
+
+.title_calender * {
+    font-size: 12px;
+    color: gray;
+}
+
+.title_calender h4 a {
+    font-size: 16px;
+    text-decoration: none;
+    color: rgb(54, 54, 54);
+}
+
+.event_img img {
+    width: 170px;
+}
+
+
+/* Social */
+
+.social_media_links {
+    margin-left: 20px;
+}
+
+.social_media_header {
+    height: 50px;
+    color: white;
+    background-color: aqua;
+    width: 300px;
+    display: flex;
+    flex-direction: row;
+}
+
+.social_media_icons i {
+    background-color: rgb(33, 169, 248);
+    padding: 14.7px;
+}
+
+.social {
+    width: 200px;
+}
+
+.media_icon * {
+    margin-top: 10px;
+    display: flex;
+    flex-direction: row;
+}
+
+.media_icona img {
+    margin: auto;
+    width: 100px;
+}
+
+.media_icon a,
+.media_icona a {
+    text-decoration: none;
+    color: black;
+}
+
+.media_icona a {
+    display: flex;
+    width: 220px;
+    flex-direction: row;
+}
+
+.media_icona a p {
+    margin-top: 10px;
+    margin-right: 15%;
+}
+
+.media_icona {
+    margin-left: 22%;
+    margin-top: 15px;
+    width: 100px;
+}
+
+.media_icon i {
+    margin-left: 20px;
+    width: 45px;
+    font-size: 25px;
+}
+
+.links_title,
+.events_calendar_header_title,
+.social_media_title {
+    margin-top: 2%;
+    margin-left: 2%;
+}
+
+.links_title,
+.social_media_title {
+    margin-top: 3.4%;
+}
+
+
+/* footer */
+
+.footer {
+    margin: auto;
+    text-align: center;
+    width: 100%;
+    height: 500px;
+    background-color: rgb(32, 32, 32);
+    color: white;
+}
+
+.footer_menu {
+    margin-top: 3%;
+    margin-left: 7.9%;
+    display: flex;
+    flex-direction: row;
+}
+
+.footer_menu a {
+    font-size: 15px;
+    color: rgb(88, 88, 88);
+    margin-top: 4%;
+    margin-bottom: 2%;
+}
+
+.footer_col {
+    text-align: left;
+    width: 200px;
+}
+
+.footer_link {
+    display: flex;
+    flex-direction: column;
+}
+
+.footer_icons a i {
+    margin-top: 2%;
+    margin-left: 1%;
+    text-align: center;
+    width: 38px;
+    height: 35px;
+    border-radius: 100%;
+    border: 1px solid white;
+    padding: 7px;
+    color: white;
+    transition: .5s;
+}
+
+#footer_face:hover {
+    background-color: rgb(22, 88, 189);
+    border: rgb(22, 88, 189);
+}
+
+#footer_twitter:hover {
+    background-color: rgb(118, 150, 199);
+    border: rgb(118, 150, 199);
+}
+
+#footer_instagram:hover {
+    background-color: rgb(170, 70, 137);
+    border: rgb(170, 70, 137);
+}
+
+#footer_youtube:hover {
+    background-color: red;
+    border: red;
+}
+
+.mobile {
+    display: flex;
+    flex-direction: row;
+    margin-top: 2%;
+    background-color: rgb(41, 41, 41);
+    width: 100%;
+    height: 40px;
+    color: gray;
+}
+
+.mobile .copyright {
+    margin-top: 1%;
+    margin-left: 4%;
+}
+
+.mobile_app {
+    margin-left: 50%;
+    margin-top: 1%;
+    display: flex;
+    flex-direction: row;
+}
+
+.mobile_app a i {
+    margin-left: 2%;
+    color: gray;
+    font-size: 10px;
+}
