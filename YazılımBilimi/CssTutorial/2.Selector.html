@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Basic Selector</title>
+
+    <style>
+        /* Tüm h1 leri seçme */
+        /* h1{
+            color: red;
+            background-color: royalblue;
+        }
+        p{
+            color: red;
+            background-color: rosybrown;
+        } */
+
+        /* h1,p{
+            color: red;
+            background-color: slategray;
+        } */
+
+        /*
+        
+        id seçmek için # kullanılır.
+        class seçmek için . kullanılır.
+        
+        */
+        
+        a{
+            text-decoration: none;
+        }
+        #logo{
+            color: snow;
+            background-color: springgreen;
+            text-align: center
+        }
+
+        .info{
+            color: red;
+            background: navy;
+        }
+        
+
+    </style>
+
+</head>
+<body>
+    <header>
+        <h1 id="logo">Logo</h1>
+        <h1>Başlı</h1>
+
+        <ul>    
+            <li>
+                <a href="#">Contact</a>
+            </li>
+            <li><a href="#">Services</a></li>
+        </ul>
+    </header>
+
+    <h1>
+        Header 2
+    </h1>
+
+    <p class="lead-info">
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Quaerat alias praesentium corporis? Recusandae laborum sequi, facilis esse nobis illo suscipit.
+    </p>
+
+    <p class="info">
+        Lorem ipsum dolor sit amet.
+    </p>
+
+    <p class="info">
+        Lorem ipsum dolor sit amet consectetur adipisicing.
+    </p>
+
+    <a href="#">Home</a>
+    
+</body>
+</html>

@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Image zoomer </title>
+</head>
+<style>
+    * {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+    }
+    
+    .image-wrap {
+        max-width: 800px;
+        margin: 50px auto;
+    }
+    
+    .image {
+        width: 100%;
+        padding-top: calc(100%/(16/9));
+        background-image: url(https://img.freepik.com/free-photo/blue-jeep-parking-public-zone_114579-4042.jpg?t=st=1650367013~exp=1650367613~hmac=9480de8d3b799ac0be1dcebf9eb17e60b7ad6411f4768d6f7db70d03dbdf071d&w=740);
+        background-size: 100%;
+        background-position: center;
+        background-repeat: no-repeat;
+    }
+    
+    .image:hover {
+        background-size: 175%;
+    }
+</style>
+
+<body>
+    <div class="image-wrap">
+        <div class="image">
+
+        </div>
+    </div>
+</body>
+
+</html>
+
+<script>
+    const image = document.querySelector('.image')
+
+    image.addEventListener('mousemove', function(e) {
+        let width = image.offsetWidth
+        let height = image.offsetHeight
+        let mouseX = e.offsetX
+        let mouseY = e.offsetY
+
+        let bgPosX = (mouseX / width * 100)
+        let bgPosY = (mouseY / height * 100)
+
+        image.style.backgroundPosition = `${bgPosX}% ${bgPosY}%`
+    })
+
+    image.addEventListener('mouseleave', function() {
+        image.style.backgroundPosition = "center"
+    })
+</script>

@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Forms</title>
+</head>
+<body>
+<!-- 
+    *Label eklemek için label etiketi yazılır.
+    *Textbox eklemek için <input type="text"> yazılır.
+    *Br bir alt satıra geçirir.
+    *name özelliği form gönderirken kolaylık sağlar.
+    *Veri gönderme butonu için type="submit" kullanılır.
+    *Buton eklemek için button etiketi kullanılır.
+    *Reset butonu için type="reset" kullanılır.
+    *Email için type="email" kullanılır.
+    *Parola için type="password" kullanılır.
+    *Tariih formatı için type="date" kullanılır.
+    *Radio buttonlar için type="radio" kullanılır.
+    *Checkbox için type="checkbox" kullanılır.
+    *Checked etiketi sayfa yenilendiğinde otomatik seçili olmasını sağlar.
+    *listbox için select etiketi kullanılır.
+    *Textarea için <textarea> etiketi kullanılır.
+    *Place holder metin girilmediği sürece yazacak olan metindir.
+
+-->
+    <form>
+        <!-- HTLM5 Input-->
+        <label for="name">Name</label><br>
+        <input type="text" id="name" name="name"><br><br>
+        <input type="submit" value="Gönder"><br><br>
+        
+        <label for="email">Email</label><br><br>
+         <input type="email"id="email"name="email">
+
+        <input type="reset" value="Sil"><br><br>
+        <button type="email">Gönder</button><br><br>
+
+        <label for="password">Parola</label><br>
+        <input type="password"value="submit"><br><br>
+
+        <label for="submit"value="submit">Tarih</label><br>
+        <input type="date" id="date" name="date"><br><br>
+
+        Gender <br><br>
+
+        Male
+        <input type="radio" name="gender" value="male" checked><br>
+        Female
+        <input type="radio" name="gender" value="female"><br>
+        Other
+        <input type="radio" name="gender" value="other"><br><br>
+
+        Hobbies <br>
+        
+        Tech<br>
+        <input type="checkbox"name="tech" id="tech"><br>
+        Music<br>
+        <input type="checkbox" name="music" id="music"><br>
+        Art<br>
+        <input type="checkbox" name="art" id="art"><br> <br>
+
+        Degree <br>
+        <select name="degree" id="degree"><br>
+            <option value="bachelor">Lisans</option>
+            <option value="msc"> Yüksek Lisans</option>
+            <option value="phc"> Doktora</option>
+        </select><br><br>
+
+        <textarea name="message" id="message" cols="30" rows="10" placeholder="Your message"></textarea>
+
+
+
+        
+
+
+
+    </form>
+
+    
+</body>
+</html>
