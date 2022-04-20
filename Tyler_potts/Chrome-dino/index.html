@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dino Replica</title>
+</head>
+<style>
+    * {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+    }
+    
+    canvas {
+        position: absolute;
+        width: 100%;
+        height: 100vh;
+        border: 4px solid rgb(255, 0, 0);
+        display: block;
+        animation: bg 5s 1s infinite;
+        transition: .5s;
+    }
+    
+    @keyframes bg {
+        0% {
+            background-color: coral;
+        }
+        25% {
+            background-color: rgb(82, 160, 82);
+        }
+        50% {
+            background-color: darkgrey;
+        }
+        75% {
+            background-color: rgb(82, 77, 50);
+        }
+        100% {
+            background-color: coral;
+        }
+    }
+</style>
+
+<body>
+
+    <canvas id="game"></canvas>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
